@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/gray"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/bottom_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/iv_home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/homepage"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:id="@+id/tv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/homepage"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_relaxation"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/iv_relaxation"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/relaxation"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:id="@+id/tv_relaxation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/relaxation"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_mine"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/iv_mine"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/mine"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:id="@+id/tv_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mine"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_stroke"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:ignore="UselessParent">
+
+
+        <EditText
+            android:id="@+id/edit_english"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="@string/str_english"
+            android:textColor="@color/black"
+            android:textColorHint="@color/light_black"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/edit_from"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/str_chinese"
+            android:textColor="@color/black"
+            android:textColorHint="@color/light_black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txv_modify"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorRed"
+            android:gravity="center"
+            android:shadowColor="@color/colorShadowBlack"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="@string/str_modify"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txv_cancel"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorGreen"
+            android:gravity="center"
+            android:shadowColor="@color/colorShadowBlack"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            android:text="@string/str_cancel"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

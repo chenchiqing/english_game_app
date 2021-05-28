@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/tb_game"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="@color/blue"-->
+<!--        app:titleMargin="0dp"-->
+<!--        app:contentInsetEnd="0dp"-->
+<!--        app:contentInsetStart="0dp"-->
+<!--        app:navigationIcon="@drawable/ic_baseline_arrow_back_24">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="20sp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/game_2048"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="right"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:textSize="20sp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/rule"-->
+<!--            tools:ignore="RtlHardcoded" />-->
+<!--    </androidx.appcompat.widget.Toolbar>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/wb_game"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

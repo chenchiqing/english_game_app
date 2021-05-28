@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_mschool"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/img_book"
+            android:text="@string/str_mshcool"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_hschool"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:background="@mipmap/img_book"
+            android:text="@string/str_hshcool"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_uni4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/img_book"
+            android:text="@string/str_uni4"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_uni6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:background="@mipmap/img_book"
+            android:text="@string/str_uni6"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/radiuborder"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_black"
+        android:hint="@string/str_english"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30dp">
+
+        <Spinner
+            android:id="@+id/spinner_port"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_shape"
+            android:entries="@array/word_part"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_chinese"
+            android:textColor="@color/black"
+            android:textColorHint="@color/light_black"
+            android:background="@drawable/radiuborder"
+            android:gravity="center"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_shape"
+        android:text="@string/str_addwords"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
